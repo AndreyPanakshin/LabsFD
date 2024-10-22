@@ -1,6 +1,7 @@
 body {
 	background: LightGoldenrodYellow;
 }
+
 h1 {
 	color: brown;
 	font-size: 50px;
@@ -13,55 +14,54 @@ h2 {
 	font-size: 40px;
 	text-align: center;
 }
-	
+
 p {
 	color: DarkGreen;
 	font-size: 20px;
 	margin: 30px;
-	font-family: "Comic Sans MS",cursive;
+	font-family: "Comic Sans MS", cursive;
 }
+
 ol {
-	color:	DarkGreen;
+	color: DarkGreen;
 	font-size: 20px;
 	margin: 5px;
-	font-family: "Comic Sans MS",cursive;
+	font-family: "Comic Sans MS", cursive;
 }
 
-.content{
-	 margin: 20px;
-	 padding: 20px;
-	 justify-content: space-between;
-	 display: flex
+.content {
+	margin: 20px;
+	padding: 20px;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
 }
 
-.content-left{
-	background:#F4A460;
-	 margin-right: 10px;
-	 padding: 20px;
-	 display: flex;
-	 width:60%;
-	 border-radius: 8px;
+.content-left {
+	background: #F4A460;
+	margin-right: 10px;
+	padding: 20px;
+	width: 60%;
+	border-radius: 8px;
 }
 
-.content-right{
-	background:#DAA520;
-	 margin-left: 10px;
-	 padding: 20px;
-	 display: flex;
-	 width:35%;
-	 border-radius: 8px;
-	 
+.content-right {
+	background: #DAA520;
+	margin-left: 10px;
+	padding: 20px;
+	width: 35%;
+	border-radius: 8px;
+
 }
 
-.image1{
-	
-	width:400px;
-    height:300px;
+.image1 {
+
+	width: 400px;
+	height: 300px;
 }
 
-.image2{
+.image2 {
 
-	width:400px;
-    height:300px;
+	width: 400px;
+	height: 300px;
 }
-
