@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
+
+<style>
+    .card-hover:hover {
+        transform: translateY(-10px); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    }
+</style>
 
 <head>
     <meta charset="utf-8">
@@ -10,10 +18,11 @@
     <title>Константин Хабенский</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body data-spy="scroll" data-bs-target="#myScrollspy" data-offset="20">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="https://ru.wikipedia.org/wiki/Де_Ниро,_Роберт">Роберт Де Ниро</a>
+            <a class="navbar-brand" href="https://ru.wikipedia.org/wiki/Хабенский,_Константин_Юрьевич">Константин Хабенский</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -27,16 +36,191 @@
         </div>
     </nav>
 
-    <div class="container mt-3">
-        <div class="alert alert-warning alert-dismissible fade show" role="alert">
-            <button type="button" class="btn-close" data-bs-dismiss="alert">
-            </button>
-            В данный момент страница находится в разработке.
+    <div class="container my-4">
+        <h2 class="mb-4">Основная информация об актёре</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Константин Хабенский</h3>
+                <p><strong>Дата рождения:</strong> 11 января 1972 года</p>
+                <p><strong>Полных лет:</strong> 52</p>
+                <p><strong>Фильмов:</strong> 100+</p>
+                <p><strong>Жанры:</strong> Драма, криминал, комедия, триллер, боевик, детектив.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="хаб5.webp" class="img-fluid rounded" alt="Фото актёра">
+            </div>
         </div>
-        <h2>Список фильмов</h2>
+
+        <h2 class="mt-5">Лучшие фильмы и сериалы</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <a href="https://www.kinopoisk.ru/film/1249233/" class="text-decoration-none">
+                    <div class="card card-hover mb-4">
+                        <img src="C:\Users\WORK\Desktop\LABA2HTML\чемп.jpg" class="card-img-top" alt="Чемпион мира">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Чемпион мира</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.kinopoisk.ru/series/838050/" class="text-decoration-none">
+                    <div class="card card-hover mb-4">
+                        <img src="C:\Users\WORK\Desktop\LABA2HTML\метод.jpg" class="card-img-top" alt="Метод">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Метод</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.kinopoisk.ru/series/1008339/" class="text-decoration-none">
+                    <div class="card card-hover mb-4">
+                        <img src="C:\Users\WORK\Desktop\LABA2HTML\тр.jpg" class="card-img-top" alt="Троцкий">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Троцкий</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.kinopoisk.ru/film/1334852/" class="text-decoration-none">
+                    <div class="card card-hover mb-4">
+                        <img src="сто.webp" class="card-img-top" alt="Сто лет тому вперёд">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Сто лет тому вперёд</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.kinopoisk.ru/series/1338342/" class="text-decoration-none">
+                    <div class="card card-hover mb-4">
+                        <img src="час.jpg" class="card-img-top" alt="За час до рассвета">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">За час до рассвета</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.kinopoisk.ru/film/5047464/" class="text-decoration-none">
+                    <div class="card card-hover mb-4">
+                        <img src="960.webp" class="card-img-top" alt="Бременские музыканты">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Бременские музыканты</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.kinopoisk.ru/film/5249455/" class="text-decoration-none">
+                    <div class="card card-hover mb-4">
+                        <img src="майор.jpg" class="card-img-top" alt="Майор Гром: Игра ">
+                        <div class="card-body text-center">
+                            <h5 class="card-title"> Майор Гром: Игра </h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.kinopoisk.ru/film/1183599/" class="text-decoration-none">
+                    <div class="card card-hover mb-4">
+                        <img src="огонь.jpg" class="card-img-top" alt="Огонь">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Огонь</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <h2 class="mt-5">Дополнительная информация</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Награды</h5>
+                        <p class="card-text">Константин Хабенский 6 раз удостаивался награды за лучшую мужскую роль в разные годы своей кинокарьеры</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Любимое блюдо</h5>
+                        <p class="card-text">Любимые блюда Хабенского - плов, шашлык, тушенная телятина с овощами.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Интересный факт</h5>
+                        <p class="card-text">Во время поисков своего призвания приходилось всеми
+                             возможными способами зарабатывать себе на жизнь. 
+                             И Хабенский работал полотёром, дворником, уличным музыкантом (играл на Невском), 
+                             монтировщиком в театре-студии «Суббота». И именно будучи монтировщиком,
+                              начал выходить в массовках. Тут-то он и понял, что надо пробоваться в актёры.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-5">Фильмография</h2>
+        <table class="table table-bordered table-hover text-center mt-3">
+            <thead>
+                <tr>
+                    <th>Год</th>
+                    <th>Фильм</th>
+                    <th>Роль</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2015</td>
+                    <td>Метод</td>
+                    <td>Родион Меглин</td>
+                </tr>
+                <tr>
+                    <td>2017</td>
+                    <td>Троцкий</td>
+                    <td>Лев Троцкий</td>
+                </tr>
+                <tr>
+                    <td>2020</td>
+                    <td>Огонь</td>
+                    <td>Алексей Соколов</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>За час до рассвета</td>
+                    <td>Шумейко</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>Чемпион мира</td>
+                    <td>Виктор Корчной</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>Бременские музыканты</td>
+                    <td>Сыщик</td>
+                </tr>
+                <tr>
+                    <td>2024</td>
+                    <td>Майор Гром:Игра</td>
+                    <td>Гром</td>
+                </tr>
+                <tr>
+                    <td>2024</td>
+                    <td>Сто лет тому вперед</td>
+                    <td>Селезнев</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-
-
 </body>
 
 </html>
